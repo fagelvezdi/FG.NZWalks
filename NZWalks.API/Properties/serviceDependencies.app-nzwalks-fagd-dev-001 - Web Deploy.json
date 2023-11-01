@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sqlserver-nzwalks-fagd-dev-001/databases/sqldb-nzwalks-fagd-dev-001",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:NZWalksDBConnectionString"
+    },
+    "mssql2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sqlserver-nzwalks-fagd-dev-001/databases/sqldb-nzwalks-fagd-dev-001",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:NZWalksAuthDBConnectionString"
+    }
+  }
+}

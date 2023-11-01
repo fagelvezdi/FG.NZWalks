@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FG.NZWalks.API", "NZWalks.API\FG.NZWalks.API.csproj", "{E5598538-CDCC-4291-ADC2-28A569D18FB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FG.NZWalks.Domain", "NZWalks.Domain\FG.NZWalks.Domain.csproj", "{885224E3-2817-4909-8606-5AB9DC1999D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FG.NZWalks.Persistence", "NZWalks.Persistence\FG.NZWalks.Persistence.csproj", "{FE845CFE-72CD-4949-94DF-3463FC2D3308}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FG.NZWalks.Application", "NZWalks.Application\FG.NZWalks.Application.csproj", "{BD38EFC8-1AD3-4EA0-8AC5-B7B82E3E8560}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FG.NZWalks.BusinessLogic", "NZWalks.BusinessLogic\FG.NZWalks.BusinessLogic.csproj", "{1CAA7BA8-E8C7-43E7-8D97-392AC20F62A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FG.NZWalks.UI", "NZWalks.UI\FG.NZWalks.UI.csproj", "{7C9A263A-AE5F-4F7B-A846-D8330F620707}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5598538-CDCC-4291-ADC2-28A569D18FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5598538-CDCC-4291-ADC2-28A569D18FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5598538-CDCC-4291-ADC2-28A569D18FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5598538-CDCC-4291-ADC2-28A569D18FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885224E3-2817-4909-8606-5AB9DC1999D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885224E3-2817-4909-8606-5AB9DC1999D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885224E3-2817-4909-8606-5AB9DC1999D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885224E3-2817-4909-8606-5AB9DC1999D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE845CFE-72CD-4949-94DF-3463FC2D3308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE845CFE-72CD-4949-94DF-3463FC2D3308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE845CFE-72CD-4949-94DF-3463FC2D3308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE845CFE-72CD-4949-94DF-3463FC2D3308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD38EFC8-1AD3-4EA0-8AC5-B7B82E3E8560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD38EFC8-1AD3-4EA0-8AC5-B7B82E3E8560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD38EFC8-1AD3-4EA0-8AC5-B7B82E3E8560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD38EFC8-1AD3-4EA0-8AC5-B7B82E3E8560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAA7BA8-E8C7-43E7-8D97-392AC20F62A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAA7BA8-E8C7-43E7-8D97-392AC20F62A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAA7BA8-E8C7-43E7-8D97-392AC20F62A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAA7BA8-E8C7-43E7-8D97-392AC20F62A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9A263A-AE5F-4F7B-A846-D8330F620707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9A263A-AE5F-4F7B-A846-D8330F620707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9A263A-AE5F-4F7B-A846-D8330F620707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9A263A-AE5F-4F7B-A846-D8330F620707}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E7AE9FB-3C46-434C-97B3-AD5B9A75F769}
+	EndGlobalSection
+EndGlobal
